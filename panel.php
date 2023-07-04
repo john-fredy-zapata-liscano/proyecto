@@ -21,7 +21,7 @@ require "conexion.php";
 <body>
 	<a href="salir.php">Cerrar sesión</a>
 	<table class='table table-bordered'>
-                <tr>
+                <tr>                    
                     <th>ID</th>
                     <th>Correo</th>
                     <th>Nombre</th>
