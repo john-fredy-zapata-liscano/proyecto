@@ -1,3 +1,15 @@
+<head>
+    <style>
+        body
+        {
+            background-color:orange;
+        }
+        table tr {
+            color:black;
+        }
+           
+    </style>
+</head> 
 <?php
 
 session_start();
@@ -19,7 +31,7 @@ require "conexion.php";
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<a href="salir.php">Cerrar sesión</a>
+	<a href="salir.php-align center">Cerrar sesión</a>
 	<table class='table table-bordered'>
                 <tr>                    
                     <th>ID</th>
@@ -31,6 +43,7 @@ require "conexion.php";
                     <th>Ciudad</th>
                     <th>Teléfono</th>
                     <th>Editar</th>
+                    <th>Eliminar</th>
                 </tr>
                 <?php
                 if ($result->num_rows > 0) {
