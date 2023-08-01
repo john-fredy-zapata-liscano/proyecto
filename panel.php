@@ -4,11 +4,32 @@
         {
             background-color:orange;
         }
-        table tr {
-            color:black;
+        .table {
+            color:blue;
+            background-color:black;
+            aling:center;
         }
+        .th{
+            background-color:black;
+            color:white;
+        }
+        tbody{
+            background-color:black
+            color:blue;
+
+        }
+        table table-bordered{ 
+            background-color:black
+            color:blue;
+
+        }
+
+
+        
+      
            
     </style>
+    <link rel="stylesheet" href="../" />
 </head> 
 <?php
 
@@ -31,8 +52,8 @@ require "conexion.php";
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<a href="salir.php-align center">Cerrar sesión</a>
-	<table class='table table-bordered'>
+	
+	<table class='table table-bordered '>
                 <tr>                    
                     <th>ID</th>
                     <th>Correo</th>
@@ -68,5 +89,10 @@ require "conexion.php";
                 }
                 ?>
             </table>
+            <br><br><br>
+            <div class ="centro">
+            <a style="text-aling: center;" href="salir.php">Cerrar sesión</a>
+            </div>
+
 </body>
 </html>
